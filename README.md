@@ -13,8 +13,7 @@ SnapSaver is a powerful, beginner-friendly web app built with **Flask + yt-dlp**
 - 📱 Mobile-optimized and responsive UI  
 - 🔍 URL detection for supported platforms  
 - 🧠 Smart platform routing (YouTube, Instagram, etc.)  
-- 📊 Admin Dashboard with analytics & download stats  
-- 🧹 Auto cleanup of old files (threaded background task)
+- 
 
 ---
 
