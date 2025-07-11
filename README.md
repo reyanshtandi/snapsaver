@@ -1,15 +1,40 @@
-# SnapSaver 🎥⬇️
+# 📥 SnapSaver – Social Media Video & Audio Downloader
 
-SnapSaver is a free tool to download videos from YouTube, Instagram, and more.  
-Built using Flask + yt-dlp + SQLAlchemy.
+SnapSaver is a powerful, beginner-friendly web app built with **Flask + yt-dlp**, allowing users to download videos and audio from platforms like **YouTube, Instagram, Twitter, Facebook, and TikTok** – all in one place!
 
-## Features:
-- Download video/audio from YouTube, Insta, TikTok, etc.
-- Clean UI with platform-specific pages
-- Newsletter, Analytics, Admin Panel
-- Auto-cleanup system
+🚀 **Live with Render** | 🧩 Python Flask | 🎨 HTML/CSS Templates | 💽 yt-dlp Integration
 
-## Live Demo:
-👉 [https://snapsaver.onrender.com](https://snapsaver.onrender.com)
+---
 
-## Deployment
+## 🌟 Features
+
+- ✅ Download videos & audio from multiple platforms  
+- 🎵 Audio-only (MP3) & Video (MP4) options  
+- 📱 Mobile-optimized and responsive UI  
+- 🔍 URL detection for supported platforms  
+- 🧠 Smart platform routing (YouTube, Instagram, etc.)  
+- 📊 Admin Dashboard with analytics & download stats  
+- 🧹 Auto cleanup of old files (threaded background task)
+
+---
+
+## 📦 Tech Stack
+
+| Tech        | Use                        |
+|-------------|----------------------------|
+| Flask       | Web framework              |
+| Jinja2      | HTML templating            |
+| SQLAlchemy  | Database ORM               |
+| yt-dlp      | Media downloading          |
+| Bootstrap   | Frontend UI styling        |
+| SQLite      | Default DB (can use Postgres) |
+
+---
+
+## 🔧 Setup Instructions
+
+### 1. Clone the Repository
+
+```bash
+git clone https://github.com/yourusername/snapsaver.git
+cd snapsaver
