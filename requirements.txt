@@ -1,2 +1,4 @@
 flask
 gunicorn
+yt_dlp
+flask_sqlalchemy
